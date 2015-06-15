@@ -11,7 +11,7 @@ body {
   color: #444444;
 }
 a {
-  color: #286da8;
+  color: #0C3760;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -19,7 +19,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #1e527f;
+  color: #9EAFBF;
 }
 a:focus {
   text-decoration: none;
@@ -36,8 +36,8 @@ a:focus {
   margin-right: 5px;
 }
 .btn-theme {
-  background: #286da8;
-  border: 1px solid #286da8;
+  background: #0C3760;
+  border: 1px solid #0C3760;
   color: #fff;
 }
 .btn-theme:hover {
@@ -87,7 +87,7 @@ blockquote {
 }
 .social-icons a {
   display: inline-block;
-  background: #1e527f;
+  background: #082643;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -399,7 +399,7 @@ select {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background-color: #286da8;
+  background-color: #0C3760;
   color: #fff;
 }
 .promo .container {
@@ -438,7 +438,7 @@ select {
   margin-bottom: 15px;
 }
 .promo .overview .btn-group li a {
-  background-color: #143856;
+  background-color: #082643;
   background-repeat: no-repeat;
   background-position: left top;
   -webkit-border-radius: 4px;
@@ -729,7 +729,7 @@ select {
   position: relative;
   width: 90px;
   height: 90px;
-  border: 3px solid #286da8;
+  border: 3px solid #0C3760;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -745,7 +745,7 @@ select {
   transition: transform ease-out 0.2s, background 0.3s;
 }
 .features .icon:hover {
-  background: #286da8;
+  background: #0C3760;
   color: #fff;
 }
 .features .icon:hover .fa {
@@ -763,14 +763,14 @@ select {
   -o-transform: scale(0.93);
 }
 .features .icon .fa {
-  color: #286da8;
+  color: #0C3760;
   font-size: 48px;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 .features .icon .pe-icon {
-  color: #286da8;
+  color: #0C3760;
   font-size: 48px;
   display: table-cell;
   text-align: center;
@@ -780,7 +780,7 @@ select {
   padding: 30px;
 }
 .features .content .title {
-  color: #286da8;
+  color: #0C3760;
   font-size: 18px;
   margin-top: 0;
 }
@@ -791,10 +791,10 @@ select {
   margin-top: 30px;
 }
 .features .btn-link {
-  color: #286da8;
+  color: #0C3760;
 }
 .features .btn-link:hover {
-  color: #1e527f;
+  color: #3D5F80;
 }
 /* ======= How Section ======= */
 .how {
@@ -866,7 +866,7 @@ select {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border-bottom: 3px solid #87b8e2;
+  border-bottom: 3px solid #0C3760;
 }
 .faq .item .question {
   margin-top: 0;
@@ -875,7 +875,7 @@ select {
 }
 .faq .item .question .fa {
   margin-right: 10px;
-  color: #3488cf;
+  color: #0C3760;
 }
 .faq .item .answer {
   color: #777777;
@@ -898,7 +898,7 @@ select {
 }
 /* ======= Story Section ======= */
 .story {
-  background-color: #286da8;
+  background-color: #0C3760;
   color: #fff;
   padding: 80px 0;
 }
@@ -918,11 +918,11 @@ select {
   margin-bottom: 15px;
 }
 .story .team .member .name {
-  color: #0b1d2c;
+  color: #9EAFBF;
   margin-bottom: 0px;
 }
 .story .team .member .title {
-  color: #87b8e2;
+  color: #9EAFBF;
   font-weight: 300;
 }
 .story .team .connect {
@@ -930,7 +930,7 @@ select {
   font-size: 26px;
 }
 .story .team .connect a {
-  color: #143856;
+  color: #9EAFBF;
 }
 .story .team .connect a:hover {
   color: #060f18;
@@ -956,12 +956,12 @@ select {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border-top: 3px solid #87b8e2;
+  border-top: 3px solid #0C3760;
   position: relative;
   margin-bottom: 23px;
 }
 .testimonials .item .quote-box .fa {
-  color: #286da8;
+  color: #0C3760;
   font-size: 18px;
   position: absolute;
   left: 30px;
@@ -1007,7 +1007,7 @@ select {
   color: #999999;
 }
 .testimonials .press .note {
-  color: #286da8;
+  color: #0C3760;
   margin-bottom: 30px;
 }
 .testimonials .press li {
@@ -1186,7 +1186,7 @@ select {
 }
 /* ======= Contact Section ======= */
 .contact {
-  background-color: #286da8;
+  background-color: #0C3760;
   color: #fff;
   padding: 80px 0;
 }
@@ -1204,14 +1204,14 @@ select {
 }
 .contact .intro li {
   margin-bottom: 10px;
-  color: #143856;
+  color: #9EAFBF;
   font-size: 16px;
 }
 .contact .intro li .fa {
   margin-right: 10px;
 }
 .contact .intro li a {
-  color: #143856;
+  color: #9EAFBF;
 }
 .contact .intro li a:hover {
   color: #0b1d2c;
@@ -1222,7 +1222,7 @@ select {
   padding: 10px 15px;
 }
 .contact .contact-form .btn-theme {
-  background-color: #143856;
+  background-color: #082643;
   margin-top: 15px;
 }
 .contact .social-icons {

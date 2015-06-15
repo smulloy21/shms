@@ -1,4 +1,4 @@
-/*   
+iphone/*   
  * Template Name: Delta - Responsive Website Template for mobile apps
  * Version: 1.7
  * Author: Xiaoying Riley at 3rd Wave Media
@@ -516,12 +516,12 @@ select {
   background-repeat: no-repeat;
   background-position: center top;
 }
-.promo .iphone.iphone-black .iphone-holder {
+/*.promo .iphone.iphone-black .iphone-holder {
   background-image: url('../images/iphone/iphone-black.png');
 }
 .promo .iphone.iphone-white .iphone-holder {
   background-image: url('../images/iphone/iphone-white.png');
-}
+}*/
 .promo .iphone .iphone-holder-inner {
   position: absolute;
   width: 222px;

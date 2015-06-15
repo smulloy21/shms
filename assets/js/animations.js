@@ -60,9 +60,9 @@ jQuery(document).ready(function($) {
             if (isInView) {$(this).addClass('animated fadeInLeft delayp1');}
         });
         
-        $('#story .member').css('opacity', 0).one('inview', function(event, isInView) {
-            if (isInView) {$(this).addClass('animated fadeInRight delayp2');}
-        });
+        // $('#story .member').css('opacity', 0).one('inview', function(event, isInView) {
+        //     if (isInView) {$(this).addClass('animated fadeInRight delayp2');}
+        // });
         
         /* Animate elements in #testimonials */
         $('#testimonials .title').css('opacity', 0).one('inview', function(event, isInView) {
