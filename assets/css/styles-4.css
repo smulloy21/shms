@@ -383,7 +383,7 @@ select {
   border: 0;
 }
 .flexslider .flex-control-nav {
-  bottom: -35px;
+/*  bottom: -35px;*/
 }
 .flexslider .flex-control-paging li a {
   background: #a1a1a1;
@@ -410,6 +410,16 @@ select {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.promo .overview h1 {
+  margin-left: 20rem;
+  font-size: 5rem;
+}
+
+.promo .overview h4 {
+  margin-left: 21rem;
+}
+
 .promo .overview h2 {
   font-size: 30px;
   margin-bottom: 35px;
@@ -459,139 +469,27 @@ select {
   background-color: #0b1d2c;
 }
 .promo .overview .btn-group li.ios-btn a {
-  background-image: url('../images/buttons/btn-app-store.png');
+/*  background-image: url('../images/buttons/btn-app-store.png');*/
 }
 .promo .overview .btn-group li.android-btn a {
-  background-image: url('../images/buttons/btn-google-play.png');
+/*  background-image: url('../images/buttons/btn-google-play.png');*/
 }
-.promo .overview .note {
-  position: relative;
-  color: #143856;
-}
-.promo .overview .note p {
-  padding-top: 15px;
-}
-.promo .overview .note .left-arrow {
-  position: absolute;
-  left: 60px;
-  bottom: 15px;
-  display: inline-block;
-  background: url('../images/arrows/up-arrow-left.png') no-repeat left top;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  width: 63px;
-  height: 69px;
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
-}
-.promo .overview .note .right-arrow {
-  position: absolute;
-  right: 60px;
-  bottom: 15px;
-  display: inline-block;
-  background: url('../images/arrows/up-arrow-right.png') no-repeat right top;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  width: 63px;
-  height: 58px;
-  -webkit-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
-}
-.promo .iphone {
-  position: relative;
-}
-.promo .iphone .iphone-holder {
-  position: relative;
-  width: 320px;
-  height: 600px;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-.promo .iphone.iphone-black .iphone-holder {
-  background-image: url('../images/iphone/iphone-black.png');
-}
-.promo .iphone.iphone-white .iphone-holder {
-  background-image: url('../images/iphone/iphone-white.png');
-}
-.promo .iphone .iphone-holder-inner {
-  position: absolute;
-  width: 222px;
-  height: 394px;
-  left: 51px;
-  top: 103px;
-}
-.promo .iphone .flexslider .flex-control-nav {
-  bottom: -50px;
-}
-.promo .iphone:before {
-  content: "";
-  display: block;
-  width: 500px;
-  height: 500px;
-  background: url('../images/glow.png') no-repeat center top;
-  right: 0;
-  top: 0;
-  position: absolute;
-}
-.promo .android {
-  position: relative;
-}
-.promo .android .android-holder {
-  position: relative;
-  width: 320px;
-  height: 600px;
-  background-image: url('../images/android/android-black.png');
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-.promo .android .android-holder-inner {
-  position: absolute;
-  width: 254px;
-  height: 450px;
-  left: 35px;
-  top: 72px;
-}
-.promo .android .flexslider .flex-control-nav {
-  bottom: -50px;
-}
-.promo .android:before {
-  content: "";
-  display: block;
-  width: 500px;
-  height: 500px;
-  background: url('../images/glow.png') no-repeat center top;
-  right: 0;
-  top: 0;
-  position: absolute;
-}
+
 .promo .ipad {
   position: relative;
+  height: 20rem;
 }
-.promo .ipad .ipad-holder {
-  position: relative;
-  width: 420px;
-  height: 600px;
-  background-repeat: no-repeat;
-  background-position: center top;
+.promo .ipad ul:first-child {
+  margin-top: 50px;
 }
-.promo .ipad.ipad-black .ipad-holder {
-  background-image: url('../images/ipad/ipad-black.png');
+.promo .ipad ul:nth-child(2) {
+  margin-top: 30px;
 }
-.promo .ipad.ipad-white .ipad-holder {
-  background-image: url('../images/ipad/ipad-white.png');
+.promo .ipad ul:nth-child(3) {
+  margin-top: 100px;
 }
-.promo .ipad .ipad-holder-inner {
-  position: absolute;
-  width: 320px;
-  height: 428px;
-  left: 51px;
-  top: 83px;
+.promo .ipad ul:nth-child(4) {
+  margin-top: 100px;
 }
 .promo .ipad .flexslider .flex-control-nav {
   bottom: -45px;
@@ -604,121 +502,6 @@ select {
   background: url('../images/glow.png') no-repeat left top;
   right: 0;
   top: 0;
-  position: absolute;
-}
-/* ======= promo (Landscape view) ======= */
-.promo-landscape {
-  padding-bottom: 60px;
-}
-.promo-landscape .flex-control-paging li a {
-  background: rgba(255, 255, 255, 0.5);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-.promo-landscape .flex-control-paging li a.flex-active {
-  background: rgba(0, 0, 0, 0.3);
-}
-.promo-landscape .overview h2 {
-  margin-bottom: 0;
-}
-.promo-landscape .overview .summary {
-  max-width: 600px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-  padding-left: 0;
-}
-.promo-landscape .overview .summary li {
-  text-align: left;
-  background-image: none;
-  padding-left: 0;
-}
-.promo-landscape .overview .summary li .fa {
-  color: rgba(0, 0, 0, 0.2);
-  margin-right: 5px;
-}
-.promo-landscape .overview .download-area {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  display: block;
-}
-.promo-landscape .overview .btn-group {
-  margin-left: 0;
-}
-.promo-landscape .overview .btn-group li:last-child a {
-  margin-right: 0;
-}
-.promo-landscape .phone {
-  padding-top: 45px;
-}
-.promo-landscape .iphone {
-  position: relative;
-  margin-bottom: 60px;
-}
-.promo-landscape .iphone .iphone-holder {
-  position: relative;
-  width: 570px;
-  height: 275px;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-.promo-landscape .iphone.iphone-black .iphone-holder {
-  background-image: url('../images/iphone/iphone-black-landscape.png');
-}
-.promo-landscape .iphone.iphone-white .iphone-holder {
-  background-image: url('../images/iphone/iphone-white.png');
-}
-.promo-landscape .iphone .iphone-holder-inner {
-  position: absolute;
-  width: 394px;
-  height: 222px;
-  top: 23px;
-  left: 90px;
-}
-.promo-landscape .iphone .flexslider .flex-control-nav {
-  bottom: -60px;
-}
-.promo-landscape .iphone:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 500px;
-  background: url('../images/glow.png') no-repeat center top;
-  top: -60px;
-  left: 0;
-  position: absolute;
-}
-.promo-landscape .android {
-  position: relative;
-  margin-bottom: 60px;
-}
-.promo-landscape .android .android-holder {
-  position: relative;
-  width: 570px;
-  height: 290px;
-  background-image: url('../images/android/android-black-landscape.png');
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-.promo-landscape .android .android-holder-inner {
-  position: absolute;
-  width: 451px;
-  height: 254px;
-  left: 66px;
-  top: 15px;
-}
-.promo-landscape .android .flexslider .flex-control-nav {
-  bottom: -60px;
-}
-.promo-landscape .android:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 500px;
-  background: url('../images/glow.png') no-repeat center top;
-  top: -60px;
-  left: 0;
   position: absolute;
 }
 /* ======= Features Section ======= */
